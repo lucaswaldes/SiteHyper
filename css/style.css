@@ -52,6 +52,23 @@ header {
           justify-content: space-between;
 }
 
+header .button {
+  width: 130px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 10px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+header .button:hover {
+  border: 1px solid #9b1818;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  cursor: pointer;
+}
+
 nav a {
   position: relative;
   font-size: 14px;
@@ -77,8 +94,8 @@ nav a::before {
   visibility: hidden;
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
 nav a:hover:before {

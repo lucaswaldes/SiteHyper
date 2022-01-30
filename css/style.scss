@@ -48,6 +48,21 @@ header {
     align-items: center;
     justify-content: space-between;
 
+    .button {
+        width: 130px;
+        height: 40px;
+        background-color: transparent;
+        border: 1px solid $white;
+        border-radius: 10px;
+        transition: 0.3s;
+    }
+
+    .button:hover {
+        border: 1px solid $secondaryColor;
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+
 }
 
 nav {
@@ -76,7 +91,7 @@ nav {
         background-color: #9b1818;
         visibility: hidden;
         transform: scaleX(0);
-        transition: all 0.4s ease-in-out;
+        transition: all .3s ease-in-out;
     }
 
     a:hover:before {
