@@ -50,6 +50,8 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-transition: all 500ms linear;
+  transition: all 500ms linear;
 }
 
 header .button {
@@ -105,7 +107,7 @@ nav a:hover:before {
 }
 
 .main {
-  background-image: url(/SiteHyper/img/Background.png);
+  background-image: url(/img/Background.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
